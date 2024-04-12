@@ -1,0 +1,67 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "e#9#std_logicc9 UX01ZWLH-"
+$IN 1 1 alarma_pornita
+I 2 "a#28#std_logic_vector(3 downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 21 2 4 ora_zeci_alarma
+$SC 5-17/4
+$BUS IN 38 2 4 4 8 unitat
+$SC 22-34/4
+$BUS IN 55 2 4 0 8 minut_zec
+$SC 39-51/4
+$BUS IN 72 2 4 6 8 unitat
+$SC 56-68/4
+$OUT +5 1 equal
+$BUS IN 93 2 4 ora_zeci_ceas
+$SC 77-89/4
+$BUS IN +21 2 4 4 6 unitat
+$SC 94-+12/4
+$IN 1 0 alarma_pornita
+$BUS IN 127 2 4 minut_zeci_ceas
+$SC 111-+12/4
+$BUS IN +21 2 4 6 6 unitat
+$SC 128-+12/4
+$BUS IN +5 2 4 ora_zeci_alarma
+$SC 5-17/4
+$BUS IN 146 2 4 4 8 unitat
+$SC 22-34/4
+$BUS IN 147 2 4 0 8 minut_zec
+$SC 39-51/4
+$BUS IN +97 2 4 6 8 unitat
+$SC 56-68/4
+$OUT +5 0 equal
+$ENDTIME 100000
+$WAVES +0
+=0 T 0
+=1 D 0 1
+$VALUES
+V 2
+U
+1
+$END
+$WAVES 1 9-60/17 81-+51/17
+*0
+$VALUES
+V 1
+1
+$END
+$WAVES 5 +8 +4 +5 +8 +4 +5 +8 +4 +5 +8 +4 +9 +8 +4 +5 +8 +4 +5 +8 +4 +5 +8 +4
+*0
+$VALUES
+V 1
+0
+$END
+$ENDTIME 200000
+$WAVES 73
+=2 D 100k 2
+$VALUES
+V 1
+0
+$END
+$WAVES +42
+=3 D 100k 1
+$VALUES
+V 1
+0
+$END
+$ENDWAVE

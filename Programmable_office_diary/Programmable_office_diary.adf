@@ -1,0 +1,84 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=Programmable_office_diary
+
+[Library]
+Programmable_office_diary=.\Programmable_office_diary.lib
+
+[$LibMap$]
+Programmable_office_diary=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOWTOOLS=ONLY_IMPL
+
+[IMPLEMENTATION]
+UCF=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=agenda_programabila|arhi|0    
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/Counter_0_9.vhd=-1
+/counter_0_6.vhd=-1
+/Counter_0_5.vhd=-1
+/Counter_0_3.vhd=-1
+/Counter_0_2.vhd=-1
+/Counter_0_1.vhd=-1
+/and_2.vhd=-1
+/comparator_24_ore.vhd=-1
+/comparator_4biti_ptverificare.vhd=-1
+/comparator_59.vhd=-1
+/comparator_24.vhd=-1
+/bisect_sau_nu.vhd=-1
+/verif_final_an.vhd=-1
+/numar_zile.vhd=-1
+/nr_zile_din_luna.vhd=-1
+/BCD_7_segment.vhd=-1
+/Componenta_ceas.vhd=-1
+/componenta_alarma.vhd=-1
+/componenta_calendar.vhd=-1
+/Componenta_temperatura.vhd=-1
+/componenta_zi_cu_litere.vhd=-1
+/main.vhd=-1
+/Waveform Editor 1.awf=-1
+
+[Files.Data]
+.\src\Counter_0_9.vhd=VHDL Source Code
+.\src\counter_0_6.vhd=VHDL Source Code
+.\src\Counter_0_5.vhd=VHDL Source Code
+.\src\Counter_0_3.vhd=VHDL Source Code
+.\src\Counter_0_2.vhd=VHDL Source Code
+.\src\Counter_0_1.vhd=VHDL Source Code
+.\src\and_2.vhd=VHDL Source Code
+.\src\comparator_24_ore.vhd=VHDL Source Code
+.\src\comparator_4biti_ptverificare.vhd=VHDL Source Code
+.\src\comparator_59.vhd=VHDL Source Code
+.\src\comparator_24.vhd=VHDL Source Code
+.\src\bisect_sau_nu.vhd=VHDL Source Code
+.\src\verif_final_an.vhd=VHDL Source Code
+.\src\numar_zile.vhd=VHDL Source Code
+.\src\nr_zile_din_luna.vhd=VHDL Source Code
+.\src\BCD_7_segment.vhd=VHDL Source Code
+.\src\Componenta_ceas.vhd=VHDL Source Code
+.\src\componenta_alarma.vhd=VHDL Source Code
+.\src\componenta_calendar.vhd=VHDL Source Code
+.\src\Componenta_temperatura.vhd=VHDL Source Code
+.\src\componenta_zi_cu_litere.vhd=VHDL Source Code
+.\src\main.vhd=VHDL Source Code
+.\src\Waveform Editor 1.awf=Waveform File
+

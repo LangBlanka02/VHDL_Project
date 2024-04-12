@@ -1,0 +1,38 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "e#9#std_logicc9 UX01ZWLH-"
+$IN 1 1 clk
+$IN 5 1 reset
+$IN 9 1 load
+$IN +4 1 enable
+I 2 "a#28#std_logic_vector(3 downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 33 2 4 minut_unitati_in
+$SC 17-29/4
+$BUS IN 50 2 4 6 4 zec
+$SC 34-46/4
+$BUS IN 67 2 4 ora_unitati_in
+$SC 51-63/4
+$BUS IN 84 2 4 4 4 zec
+$SC 68-80/4
+$BUS OUT +21 2 4 minut_unitati_out
+$SC 85-97/4
+$BUS OUT +21 2 4 6 5 zec
+$SC 102-+12/4
+$BUS OUT +21 2 4 0 5 ora_unitat
+$SC 119-+12/4
+$BUS OUT +21 2 4 4 5 zec
+$SC 136-+12/4
+$OUT +5 1 trigger_zi
+$BUS S +20 2 4 minut_unitati_temporar_out
+$SC 157-+12/4
+$BUS S +21 2 4 6 14 zec
+$SC 174-+12/4
+$BUS S +21 2 4 0 14 ora_unitat
+$SC 191-+12/4
+$BUS S +21 2 4 4 14 zec
+$SC 208-+12/4
+$S +5 1 trigger_minut_zeci
+$S +4 1 8 1 ora_unitat
+$S +4 1 12 1 zec
+$S +4 1 12 0 final
+$ENDWAVE

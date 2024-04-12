@@ -1,0 +1,25 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#28#std_logic_vector(3 downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 17 1 4 ora_zeci
+$SC 1-13/4
+$IN +5 2 alarma_pornita
+$BUS IN +4 1 4 ora_zeci
+$SC 1-13/4
+$BUS IN 39 1 4 4 1 unitat
+$SC 23-35/4
+$BUS IN 56 1 4 minut_zeci
+$SC 40-52/4
+$BUS IN 73 1 4 6 1 unitat
+$SC 57-69/4
+$BUS IN 90 1 4 ora_zeci_alarma
+$SC 74-86/4
+$BUS IN +21 1 4 4 8 unitat
+$SC 91-+12/4
+$BUS IN +21 1 4 0 8 minut_zec
+$SC 108-+12/4
+$BUS IN +21 1 4 6 8 unitat
+$SC 125-+12/4
+$OUT +5 2 equal
+$ENDWAVE

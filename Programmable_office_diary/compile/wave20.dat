@@ -1,0 +1,66 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#28#std_logic_vector(3 downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS OUT 17 1 4 zi_zeci_out
+$SC 1-13/4
+$BUS OUT 34 1 4 0 9 an
+$SC 18-30/4
+$IN +5 2 clk
+$IN +4 2 enable
+$IN +4 2 load
+$BUS OUT 63 1 4 luna_zeci_out
+$SC 47-59/4
+$IN +5 2 reset
+$IN 43 0 "calendar_componenta/load"
+$BUS IN 84 1 4 21 0 una_unitati_in
+$SC 68-80/4
+$BUS OUT +21 1 4 33 0 out
+$SC 85-97/4
+$BUS IN +21 1 4 25 0 zeci_in
+$SC 102-+12/4
+$BUS OUT +21 1 4 30 0 out
+$SC 119-+12/4
+$IN 64 0 20 1 rese
+$BUS IN +88 1 4 20 0 zi_unitati_in
+$SC 136-+12/4
+$BUS OUT +21 1 4 31 0 out
+$SC 153-+12/4
+$S +5 2 20 0 trigger_an_zeci
+$S +4 2 28 5 luna
+$S +4 2 28 5 zi
+$BUS S +20 1 4 20 0 zi_unitati_temp
+$SC 182-+12/4
+$BUS S +21 1 4 23 6 zec
+$SC 199-+12/4
+$BUS IN +21 1 4 28 0 in
+$SC 216-+12/4
+$BUS OUT +21 1 4 28 0 out
+$SC 233-+12/4
+I 3 "a#29#std_logic_vector(15 downto 0)1 ricd15 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +69 3 16 20 0 an
+$SC 250-+60/4
+$S +5 2 20 0 bisect
+$S +4 2 20 0 final_an
+$S +4 2 26 0 luna
+$BUS S +20 1 4 20 0 luna_unitati_temp
+$SC 327-+12/4
+$BUS S +21 1 4 25 6 zec
+$SC 344-+12/4
+$BUS S +21 1 4 20 6 nr_zile_unitat
+$SC 361-+12/4
+$BUS S +21 1 4 28 6 zec
+$SC 378-+12/4
+$S +5 2 20 1 sto
+$S +4 2 20 0 trigger_an_unitati
+$BUS OUT +20 1 4 20 0 an_unitati_out
+$SC 403-+12/4
+$BUS IN +21 1 4 23 0 zeci_in
+$SC 420-+12/4
+$BUS OUT +21 1 4 28 0 out
+$SC 437-+12/4
+$IN +5 2 20 0 clk
+$IN 39 0 20 0 enable
+$BUS IN 474 1 4 20 0 an_unitati_in
+$SC 458-+12/4
+$ENDWAVE

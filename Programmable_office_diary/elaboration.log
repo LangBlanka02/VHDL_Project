@@ -1,0 +1,45 @@
+elbread.dll ver. 1.0.5.365 Fri Apr 12 17:48:14 2024
+
+
+--------------------------------------------------------------------
+Entity                | Architecture     | Library                
+--------------------------------------------------------------------
+agenda_programabila   | arhi             | Programmable_office_diary
+ceas                  | arhi             | programmable_office_diary
+calendar              | arhi             | programmable_office_diary
+zi_cu_litere          | arh_zi_cu_litere | programmable_office_diary
+temperatura           | arhi             | programmable_office_diary
+compalarm             | arhi             | programmable_office_diary
+counter_0_9           | behave           | programmable_office_diary
+counter_0_5           | behave           | programmable_office_diary
+counter_0_2           | behave           | programmable_office_diary
+comp24                | arhi             | programmable_office_diary
+an_bisect             | arhi_bisect      | programmable_office_diary
+nr_zile_din_luna      | arhi             | programmable_office_diary
+nr_zile               | arhi             | programmable_office_diary
+counter_0_3           | behave           | programmable_office_diary
+counter_0_1           | behave           | programmable_office_diary
+verificare_final_an   | arhi             | programmable_office_diary
+mux_2_1_specific      | arhi             | programmable_office_diary
+sumator_2_biti        | arhi             | programmable_office_diary
+poarta_nu             | arhi             | programmable_office_diary
+si_2                  | arh_si_2         | programmable_office_diary
+or_8_intrari          | arhi             | programmable_office_diary
+mux_2_1               | arhi             | programmable_office_diary
+mux_2_1_final         | arhi             | programmable_office_diary
+sumator_1_bit         | arhi             | programmable_office_diary
+numarul_lunii         | arhi             | programmable_office_diary
+stabilire_zi_zeci     | arhi             | programmable_office_diary
+stabilire_zi_unitati  | arhi             | programmable_office_diary
+comparator_4_biti     | compar24         | programmable_office_diary
+and2                  | and2             | programmable_office_diary
+--------------------------------------------------------------------
+
+-----------------------------
+Package             | Library
+-----------------------------
+standard            | std
+std_logic_1164      | ieee
+std_logic_arith     | ieee
+std_logic_unsigned  | ieee
+-----------------------------

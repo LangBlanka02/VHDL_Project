@@ -1,0 +1,91 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#28#std_logic_vector(3 downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS S 17 1 4 an_zeci_aux
+$SC 1-13/4
+$BUS S 34 1 4 luna_unit_aux
+$SC 18-30/4
+$BUS S 51 1 4 5 4 zeci
+$SC 35-47/4
+$BUS S 68 1 4 min_unit_aux
+$SC 52-64/4
+$BUS S 85 1 4 4 4 zeci
+$SC 69-81/4
+$BUS S +21 1 4 ora_unit_aux
+$SC 86-98/4
+$BUS S +21 1 4 4 4 zeci
+$SC 103-+12/4
+$BUS S +21 1 4 0 5 temp_unitat
+$SC 120-+12/4
+$BUS S +21 1 4 5 5 zec
+$SC 137-+12/4
+$S +5 2 trigger_pentru_zi
+$BUS S +20 1 4 zi_unit_aux
+$SC 158-+12/4
+$BUS S +21 1 4 3 4 zeci
+$SC 175-+12/4
+$BUS IN +21 1 4 al_min_zeci
+$SC 192-+12/4
+$BUS IN +21 1 4 luna_unit
+$SC 209-+12/4
+$BUS OUT +21 1 4 9 1 _ou
+$SC 226-+12/4
+$BUS IN +21 1 4 5 0 zeci
+$SC 243-+12/4
+$BUS OUT +21 1 4 9 0 _out
+$SC 260-+12/4
+$BUS IN +21 1 4 min_unit
+$SC 277-+12/4
+$BUS OUT +21 1 4 8 1 _ou
+$SC 294-+12/4
+$BUS IN +21 1 4 min_zeci
+$SC 311-+12/4
+$BUS OUT +21 1 4 8 0 _out
+$SC 328-+12/4
+$BUS IN +21 1 4 ora_unit
+$SC 345-+12/4
+$BUS OUT +21 1 4 8 1 _ou
+$SC 362-+12/4
+$BUS OUT +21 1 4 alarma
+$SC 379-+12/4
+$BUS IN +21 1 4 an_unit
+$SC 396-+12/4
+$BUS OUT +21 1 4 7 1 _ou
+$SC 413-+12/4
+$BUS IN +21 1 4 ora_zeci
+$SC 430-+12/4
+$BUS OUT +21 1 4 8 0 _out
+$SC 447-+12/4
+$IN +5 2 reset
+$BUS OUT +20 1 4 temp_1_out
+$SC 468-+12/4
+$BUS OUT +21 1 4 5 4 "2"
+$SC 485-+12/4
+$BUS IN +21 1 4 zi_unit
+$SC 502-+12/4
+$BUS OUT +21 1 4 7 1 _ou
+$SC 519-+12/4
+$BUS IN +21 1 4 zi_zeci
+$SC 536-+12/4
+$BUS OUT +21 1 4 7 0 _out
+$SC 553-+12/4
+$BUS S +21 1 4 alarma_aux
+$SC 570-+12/4
+$BUS S +21 1 4 1 4 n_unit
+$SC 587-+12/4
+$BUS IN +21 1 4 an_zeci
+$SC 604-+12/4
+$BUS OUT +21 1 4 7 0 _out
+$SC 621-+12/4
+$IN +5 2 clk
+$IN +4 2 enable
+$IN +4 2 load
+$BUS IN +20 1 4 al_min_unit
+$SC 650-+12/4
+$IN +5 2 al_on
+$BUS IN +20 1 4 al_ora_unit
+$SC 671-+12/4
+$BUS IN +21 1 4 7 0 zeci
+$SC 688-+12/4
+$ENDWAVE

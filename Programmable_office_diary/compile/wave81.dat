@@ -1,0 +1,176 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#28#std_logic_vector(3 downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 17 1 4 min_zeci
+$SC 1-13/4
+$BUS IN 34 1 4 min_unit
+$SC 18-30/4
+$BUS IN 51 1 4 zi_zeci
+$SC 35-47/4
+$BUS IN 68 1 4 zi_unit
+$SC 52-64/4
+$BUS IN 85 1 4 luna_zeci
+$SC 69-81/4
+$BUS IN +21 1 4 5 0 unit
+$SC 86-98/4
+$BUS IN +21 1 4 0 5 an
+$SC 103-+12/4
+$BUS IN +21 1 4 an_zeci
+$SC 120-+12/4
+$IN +5 2 clk
+$IN +4 2 reset
+$BUS IN +20 1 4 al_ora_zeci
+$SC 145-+12/4
+$BUS IN +21 1 4 7 0 unit
+$SC 162-+12/4
+$BUS IN +21 1 4 al_min_zeci
+$SC 179-+12/4
+$BUS IN +21 1 4 7 0 unit
+$SC 196-+12/4
+$IN +5 2 al_on
+$BUS OUT +20 1 4 ora_zeci_out
+$SC 217-+12/4
+$BUS OUT +21 1 4 4 4 unit
+$SC 234-+12/4
+$BUS OUT +21 1 4 min_zeci_out
+$SC 251-+12/4
+$BUS OUT +21 1 4 4 4 unit
+$SC 268-+12/4
+$BUS OUT +21 1 4 zi_zeci_out
+$SC 285-+12/4
+$BUS OUT +21 1 4 3 4 unit
+$SC 302-+12/4
+$BUS OUT +21 1 4 luna_zeci_out
+$SC 319-+12/4
+$BUS OUT +21 1 4 5 4 unit
+$SC 336-+12/4
+$BUS OUT +21 1 4 an_zeci_out
+$SC 353-+12/4
+$IN +5 2 enable
+$IN +4 2 load
+$BUS IN +20 1 4 ora_zeci
+$SC 378-+12/4
+$BUS IN +21 1 4 ora_unit
+$SC 395-+12/4
+$BUS OUT +21 1 4 an_unit_out
+$SC 412-+12/4
+I 3 "a#18#STRING(4 downto 1)1 ricd4 1 e#9#characters256 nul soh stx etx eot enq ack bel bs ht lf vt ff cr so si dle dc1 dc2 dc3 dc4 nak syn etb can em sub esc fsp gsp rsp usp '  '! '\" '# '$ '% '& '' '( ') '* '+ ', '- '. '/ '0 '1 '2 '3 '4 '5 '6 '7 '8 '9 ': '; '< '= '> '? '@ 'A 'B 'C 'D 'E 'F 'G 'H 'I 'J 'K 'L 'M 'N 'O 'P 'Q 'R 'S 'T 'U 'V 'W 'X 'Y 'Z '[ '\\ '] '^ '_ '` 'a 'b 'c 'd 'e 'f 'g 'h 'i 'j 'k 'l 'm 'n 'o 'p 'q 'r 's 't 'u 'v 'w 'x 'y 'z '{ '| '} '~ del c128 c129 c130 c131 c132 c133 c134 c135 c136 c137 c138 c139 c140 c141 c142 c143 c144 c145 c146 c147 c148 c149 c150 c151 c152 c153 c154 c155 c156 c157 c158 c159 '  '¡ '¢ '£ '¤ '¥ '¦ '§ '¨ '© 'ª '« '¬ '­ '® '¯ '° '± '² '³ '´ 'µ '¶ '· '¸ '¹ 'º '» '¼ '½ '¾ '¿ 'À 'Á 'Â 'Ã 'Ä 'Å 'Æ 'Ç 'È 'É 'Ê 'Ë 'Ì 'Í 'Î 'Ï 'Ð 'Ñ 'Ò 'Ó 'Ô 'Õ 'Ö '× 'Ø 'Ù 'Ú 'Û 'Ü 'Ý 'Þ 'ß 'à 'á 'â 'ã 'ä 'å 'æ 'ç 'è 'é 'ê 'ë 'ì 'í 'î 'ï 'ð 'ñ 'ò 'ó 'ô 'õ 'ö '÷ 'ø 'ù 'ú 'û 'ü 'ý 'þ 'ÿ "
+I 4 "e#9#characters256 nul soh stx etx eot enq ack bel bs ht lf vt ff cr so si dle dc1 dc2 dc3 dc4 nak syn etb can em sub esc fsp gsp rsp usp '  '! '\" '# '$ '% '& '' '( ') '* '+ ', '- '. '/ '0 '1 '2 '3 '4 '5 '6 '7 '8 '9 ': '; '< '= '> '? '@ 'A 'B 'C 'D 'E 'F 'G 'H 'I 'J 'K 'L 'M 'N 'O 'P 'Q 'R 'S 'T 'U 'V 'W 'X 'Y 'Z '[ '\\ '] '^ '_ '` 'a 'b 'c 'd 'e 'f 'g 'h 'i 'j 'k 'l 'm 'n 'o 'p 'q 'r 's 't 'u 'v 'w 'x 'y 'z '{ '| '} '~ del c128 c129 c130 c131 c132 c133 c134 c135 c136 c137 c138 c139 c140 c141 c142 c143 c144 c145 c146 c147 c148 c149 c150 c151 c152 c153 c154 c155 c156 c157 c158 c159 '  '¡ '¢ '£ '¤ '¥ '¦ '§ '¨ '© 'ª '« '¬ '­ '® '¯ '° '± '² '³ '´ 'µ '¶ '· '¸ '¹ 'º '» '¼ '½ '¾ '¿ 'À 'Á 'Â 'Ã 'Ä 'Å 'Æ 'Ç 'È 'É 'Ê 'Ë 'Ì 'Í 'Î 'Ï 'Ð 'Ñ 'Ò 'Ó 'Ô 'Õ 'Ö '× 'Ø 'Ù 'Ú 'Û 'Ü 'Ý 'Þ 'ß 'à 'á 'â 'ã 'ä 'å 'æ 'ç 'è 'é 'ê 'ë 'ì 'í 'î 'ï 'ð 'ñ 'ò 'ó 'ô 'õ 'ö '÷ 'ø 'ù 'ú 'û 'ü 'ý 'þ 'ÿ "
+$BUS OUT +21 3 4 ziua_din_saptamana_out
+$SC 429-+12/4
+$BUS OUT +21 1 4 alarma
+$SC 446-+12/4
+I 5 "a#28#std_logic_vector(4 downto 0)1 ricd4 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS OUT +25 5 5 temperatura_out
+$SC 463-+16/4
+$S +5 2 trigger_pentru_zi
+$BUS S +20 1 4 ora_zeci_aux
+$SC 488-+12/4
+$BUS S +21 1 4 4 4 unit
+$SC 505-+12/4
+$BUS S +21 1 4 min_zeci_aux
+$SC 522-+12/4
+$BUS S +21 1 4 4 4 unit
+$SC 539-+12/4
+$BUS S +21 1 4 zi_zeci_aux
+$SC 556-+12/4
+$BUS S +21 1 4 3 4 unit
+$SC 573-+12/4
+$BUS S +21 1 4 luna_zeci_aux
+$SC 590-+12/4
+$BUS S +21 1 4 5 4 unit
+$SC 607-+12/4
+$BUS S +21 1 4 an_zeci_aux
+$SC 624-+12/4
+$BUS S +21 1 4 3 4 unit
+$SC 641-+12/4
+$BUS S +25 5 5 temp_aux
+$SC 658-+16/4
+$BUS S +21 1 4 alarma_aux
+$SC 679-+12/4
+$BUS IN +5 1 4 luna_zeci
+$SC 69-81/4
+$BUS IN 697 1 4 5 0 unit
+$SC 86-98/4
+$BUS IN 698 1 4 0 5 an
+$SC 103-+12/4
+$BUS IN 699 1 4 an_zeci
+$SC 120-+12/4
+$BUS IN 700 1 4 1 5 l_ora
+$SC 145-+12/4
+$BUS IN 701 1 4 7 0 unit
+$SC 162-+12/4
+$BUS IN 702 1 4 al_min_zeci
+$SC 179-+12/4
+$BUS IN 703 1 4 7 0 unit
+$SC 196-+12/4
+$IN 137 0 clk
+$IN +4 0 reset
+$IN +72 0 al_on
+$BUS OUT 704 1 4 ora_zeci_out
+$SC 217-+12/4
+$BUS OUT 705 1 4 4 4 unit
+$SC 234-+12/4
+$BUS OUT 706 1 4 min_zeci_out
+$SC 251-+12/4
+$BUS OUT 707 1 4 4 4 unit
+$SC 268-+12/4
+$BUS OUT 708 1 4 zi_zeci_out
+$SC 285-+12/4
+$BUS OUT 709 1 4 3 4 unit
+$SC 302-+12/4
+$BUS OUT 710 1 4 luna_zeci_out
+$SC 319-+12/4
+$BUS OUT 711 1 4 5 4 unit
+$SC 336-+12/4
+$BUS OUT 712 1 4 an_zeci_out
+$SC 353-+12/4
+$BUS OUT 713 1 4 3 4 unit
+$SC 412-+12/4
+$BUS OUT 714 3 4 ziua_din_saptamana_out
+$SC 429-+12/4
+$BUS OUT 715 1 4 alarma
+$SC 446-+12/4
+$BUS OUT 716 5 5 temperatura_out
+$SC 463-+16/4
+$BUS IN 717 1 4 min_zeci
+$SC 1-13/4
+$BUS IN 718 1 4 min_unit
+$SC 18-30/4
+$BUS IN 719 1 4 zi_zeci
+$SC 35-47/4
+$BUS IN 720 1 4 zi_unit
+$SC 52-64/4
+$S 484 0 trigger_pentru_zi
+$BUS S 721 1 4 ora_zeci_aux
+$SC 488-+12/4
+$BUS S 722 1 4 4 4 unit
+$SC 505-+12/4
+$BUS S 723 1 4 min_zeci_aux
+$SC 522-+12/4
+$BUS S 724 1 4 4 4 unit
+$SC 539-+12/4
+$BUS S 725 1 4 zi_zeci_aux
+$SC 556-+12/4
+$BUS S 726 1 4 3 4 unit
+$SC 573-+12/4
+$BUS S 727 1 4 luna_zeci_aux
+$SC 590-+12/4
+$BUS S 728 1 4 5 4 unit
+$SC 607-+12/4
+$BUS S 729 1 4 an_zeci_aux
+$SC 624-+12/4
+$BUS S +94 1 4 3 4 unit
+$SC 641-+12/4
+$BUS S +78 5 5 temp_aux
+$SC 658-+16/4
+$BUS S +58 1 4 alarma_aux
+$SC 679-+12/4
+$IN 370 0 enable
+$IN +4 0 load
+$BUS IN 733 1 4 ora_zeci
+$SC 378-+12/4
+$BUS IN 734 1 4 ora_unit
+$SC 395-+12/4
+$ENDWAVE
